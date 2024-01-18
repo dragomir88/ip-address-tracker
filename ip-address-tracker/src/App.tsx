@@ -10,8 +10,9 @@ function App() {
   const { ipData, handleSearch } = useIpSearch();
 
   useEffect(() => {
-    handleSearch('8.8.8.8');
-  }, [handleSearch]);
+    handleSearch('8.8.8.8'); // Default IP address
+  }, []);
+  
   return (
     <div className="App">
       <Header>
