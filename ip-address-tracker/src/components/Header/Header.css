@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+    height: 250px; 
+    width: 100%; 
+    background-image: url('../../assets/pattern-bg-desktop.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;  
+    color: white;
+    padding: 20px;  
+  }
+  
