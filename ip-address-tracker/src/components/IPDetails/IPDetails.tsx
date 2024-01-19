@@ -1,6 +1,6 @@
 import React from 'react';
 import './IPDetails.css';
-import { IPDetailsProps } from './utils/utils';
+import { IPDetailsProps } from '../utils/utils';
 
 const IPDetails: React.FC<IPDetailsProps> = ({ ip, location, isp }) => {
     return (

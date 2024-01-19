@@ -1,6 +1,6 @@
 import React from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
-import { MapProps } from "./utils/utils";
+import { MapProps } from "../utils/utils";
 
 const mapContainerStyle = {
   height: "400px",

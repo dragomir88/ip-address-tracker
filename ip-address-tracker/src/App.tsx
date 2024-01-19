@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 import Header from './components/Header/Header';
-import Search from './components/Search';
-import IPDetails from './components/IPDetails';
-import Map from './components/Map';
+import IPDetails from './components/IPDetails/IPDetails';
+import Map from './components/Map/Map';
 import './App.css';
 import useIpSearch from './components/utils/useIpSearch';
+import Search from './components/Search/Search';
 
 function App() {
   const { ipData, handleSearch } = useIpSearch();

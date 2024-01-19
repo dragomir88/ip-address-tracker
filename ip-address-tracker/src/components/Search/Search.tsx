@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import searchIcon from '../assets/icon-arrow.svg';  
+import searchIcon from '../../assets/icon-arrow.svg';  
 import './Search.css';
 
 interface SearchProps {
